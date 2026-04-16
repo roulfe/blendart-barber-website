@@ -6,6 +6,10 @@ import Services from "./components/Services.jsx";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import { ScrollTrigger, SplitText } from "gsap/all";
+import gsap from "gsap/gsap-core.js";
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
   
@@ -14,7 +18,7 @@ function App() {
             <HashRouter>
                 <div className="flex flex-col">
                     <Header />
-                    <main>
+                    <main className="">
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/gallery" element={<Gallery />} />
