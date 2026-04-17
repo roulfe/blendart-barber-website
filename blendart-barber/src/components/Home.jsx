@@ -32,7 +32,7 @@ function Home() {
           className="w-full rounded-2xl object-cover"
         />
 
-        <div className="space-y-4 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-center">
           <h1 className="text-3xl font-bold md:text-4xl">
             blendART Barber Studio
           </h1>
@@ -47,7 +47,7 @@ function Home() {
       </section>
 
       <section className="grid grid-cols-1 items-center gap-8 px-4 py-8 md:grid-cols-2 md:px-10 md:py-12 lg:px-16">
-        <div className="space-y-4 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-center">
           <h2 className="text-3xl font-bold md:text-4xl">
             Find us in Frankfort, IL
           </h2>
@@ -84,7 +84,7 @@ function Home() {
           className="w-full rounded-2xl object-cover"
         />
 
-        <div className="space-y-4 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-center">
           <h2 className="text-3xl font-bold md:text-4xl">
             Quality cuts for every style and every age
           </h2>

@@ -4,21 +4,23 @@ import Team from "./components/Team.jsx";
 import About from "./components/About.jsx";
 import Services from "./components/Services.jsx";
 import { HashRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollTop.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import { ScrollTrigger, SplitText } from "gsap/all";
+import { SplitText } from "gsap/all";
 import gsap from "gsap/gsap-core.js";
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+gsap.registerPlugin(SplitText);
 
 function App() {
   
     return(
         <>
             <HashRouter>
+                <ScrollToTop />
                 <div className="flex flex-col">
                     <Header />
-                    <main className="">
+                    <main>
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/gallery" element={<Gallery />} />
