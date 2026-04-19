@@ -17,7 +17,7 @@ function App() {
     return(
         <>
             <HashRouter>
-                <ScrollToTop />
+                {/* <ScrollToTop /> */}
                 <div className="flex flex-col">
                     <Header />
                     <main>

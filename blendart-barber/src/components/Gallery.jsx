@@ -34,7 +34,7 @@ function Gallery(){
                 <div className="flex justify-center mt-8">
                     <button
                         onClick={() => setShowAll(!showAll)}
-                        className="bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded"
+                        className="bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded cursor-pointer transition duration-300"
                     >
                         {showAll ? "Show Less" : "Show More"}
                     </button>

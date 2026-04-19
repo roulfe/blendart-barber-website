@@ -1,9 +1,10 @@
 function About() {
   return (
-    <section className="bg-(--Egg) min-h-[calc(100vh-96px)] px-10 py-10 md:px-10 lg:px-16 md:content-center">
+    <section className=" bg-(--Egg) min-h-[calc(100vh-96px)] px-10 py-10 text-center md:px-10 lg:px-16">
+      <h2 className="pb-10 my-10 text-center text-3xl font-bold md:text-4xl">About Us</h2>
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 md:flex-row">
         <img
-          src="/src/assets/photos/IMG_5112.jpg"
+          src="/src/assets/photos/IMG_5135.jpg"
           alt="About BlendArt Barber"
           className="w-full max-w-md h-auto rounded-2xl object-cover md:w-1/2"
         />
