@@ -81,7 +81,7 @@ function Gallery() {
   }, [showAll]);
 
   return (
-    <section className="bg-[var(--Egg)] min-h-[calc(100vh-96px)] px-4 py-10 md:px-8 lg:px-12">
+    <section className="bg-(--Egg) min-h-[calc(100vh-96px)] px-4 py-10 md:px-8 lg:px-12">
       <h2 className="my-10 pb-10 text-center text-3xl font-bold md:text-4xl">
         Gallery
       </h2>
