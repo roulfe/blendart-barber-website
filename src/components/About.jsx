@@ -42,7 +42,7 @@ function About() {
 
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 md:flex-row">
         <img
-          src="/src/assets/photos/IMG_5135.jpg"
+          src="./src/assets/photos/IMG_5135.jpg"
           alt="About BlendArt Barber"
           className="gsap-media h-auto w-full max-w-md rounded-2xl object-cover md:w-1/2"
         />

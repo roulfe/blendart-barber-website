@@ -71,7 +71,7 @@ function Header() {
             <div className="absolute left-1/2 -translate-x-1/2">
               <Link to="/">
                 <img
-                  src="/src/assets/Blendart_logo.png"
+                  src="./src/assets/Blendart_logo.png"
                   alt="BlendArt Barber Logo"
                   className="h-auto w-48 cursor-pointer lg:w-64"
                 />

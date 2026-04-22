@@ -8,18 +8,18 @@ function Gallery() {
   const hasMounted = useRef(false);
 
   const images = [
-    "/src/assets/photos/cuts/IMG_5125.jpg",
-    "/src/assets/photos/cuts/IMG_5126.jpg",
-    "/src/assets/photos/cuts/IMG_5127.jpg",
-    "/src/assets/photos/cuts/IMG_5128.jpg",
-    "/src/assets/photos/cuts/IMG_5129.jpg",
-    "/src/assets/photos/cuts/515899036_18316169383236992_2242247299343938881_n.jpg",
-    "/src/assets/photos/cuts/618798365_18554640469033140_4468739390517866771_n.jpg",
-    "/src/assets/photos/cuts/625843177_18079483253018149_1797744068929935197_n.jpg",
-    "/src/assets/photos/cuts/628015289_18300980419279067_2104951363492590458_n.jpg",
-    "/src/assets/photos/cuts/633797206_18345396901236992_5472280003291157337_n.jpg",
-    "/src/assets/photos/cuts/639545811_18345394333236992_5168243235679108805_n.jpg",
-    "/src/assets/photos/cuts/669783947_18580619173033140_5344095572870607122_n.jpg",
+    "./src/assets/photos/cuts/IMG_5125.jpg",
+    "./src/assets/photos/cuts/IMG_5126.jpg",
+    "./src/assets/photos/cuts/IMG_5127.jpg",
+    "./src/assets/photos/cuts/IMG_5128.jpg",
+    "./src/assets/photos/cuts/IMG_5129.jpg",
+    "./src/assets/photos/cuts/515899036_18316169383236992_2242247299343938881_n.jpg",
+    "./src/assets/photos/cuts/618798365_18554640469033140_4468739390517866771_n.jpg",
+    "./src/assets/photos/cuts/625843177_18079483253018149_1797744068929935197_n.jpg",
+    "./src/assets/photos/cuts/628015289_18300980419279067_2104951363492590458_n.jpg",
+    "./src/assets/photos/cuts/633797206_18345396901236992_5472280003291157337_n.jpg",
+    "./src/assets/photos/cuts/639545811_18345394333236992_5168243235679108805_n.jpg",
+    "./src/assets/photos/cuts/669783947_18580619173033140_5344095572870607122_n.jpg",
   ];
 
   const visibleImages = showAll ? images : images.slice(0, 6);
