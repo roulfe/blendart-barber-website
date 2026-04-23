@@ -1,6 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Cut_1 from "../assets/photos/cuts/Cut_1.jpg";
+import Cut_2 from "../assets/photos/cuts/Cut_2.jpg";
+import Cut_3 from "../assets/photos/cuts/Cut_3.jpg";
+import Cut_4 from "../assets/photos/cuts/Cut_4.jpg";
+import Cut_5 from "../assets/photos/cuts/Cut_5.jpg";
+import Cut_6 from "../assets/photos/cuts/Cut_6.jpg";
+import Cut_7 from "../assets/photos/cuts/Cut_7.jpg";
+import Cut_8 from "../assets/photos/cuts/Cut_8.jpg";
+import Cut_9 from "../assets/photos/cuts/Cut_9.jpg";
+import Cut_10 from "../assets/photos/cuts/Cut_10.jpg";
+import Cut_11 from "../assets/photos/cuts/Cut_11.jpg";
+import Cut_12 from "../assets/photos/cuts/Cut_12.jpg";
 
 function Gallery() {
   const [showAll, setShowAll] = useState(false);
@@ -8,18 +20,18 @@ function Gallery() {
   const hasMounted = useRef(false);
 
   const images = [
-    "./src/assets/photos/cuts/IMG_5125.jpg",
-    "./src/assets/photos/cuts/IMG_5126.jpg",
-    "./src/assets/photos/cuts/IMG_5127.jpg",
-    "./src/assets/photos/cuts/IMG_5128.jpg",
-    "./src/assets/photos/cuts/IMG_5129.jpg",
-    "./src/assets/photos/cuts/515899036_18316169383236992_2242247299343938881_n.jpg",
-    "./src/assets/photos/cuts/618798365_18554640469033140_4468739390517866771_n.jpg",
-    "./src/assets/photos/cuts/625843177_18079483253018149_1797744068929935197_n.jpg",
-    "./src/assets/photos/cuts/628015289_18300980419279067_2104951363492590458_n.jpg",
-    "./src/assets/photos/cuts/633797206_18345396901236992_5472280003291157337_n.jpg",
-    "./src/assets/photos/cuts/639545811_18345394333236992_5168243235679108805_n.jpg",
-    "./src/assets/photos/cuts/669783947_18580619173033140_5344095572870607122_n.jpg",
+    Cut_1,
+    Cut_2,
+    Cut_3,
+    Cut_4,
+    Cut_5,
+    Cut_6,
+    Cut_7,
+    Cut_8,
+    Cut_9,
+    Cut_10,
+    Cut_11,
+    Cut_12,
   ];
 
   const visibleImages = showAll ? images : images.slice(0, 6);

@@ -90,8 +90,18 @@ function Header() {
         </div>
 
         {/* Mobile dropdown menu */}
-        {isMenuOpen && (
-          <div className="border-t border-gray-200 bg-white px-4 py-4 md:hidden">
+        <div
+          className={`overflow-hidden border-t border-gray-200 bg-white transition-all duration-300 ease-out md:hidden ${
+            isMenuOpen
+              ? "max-h-96 opacity-100"
+              : "max-h-0 opacity-0 border-t-0"
+          }`}
+        >
+          <div
+            className={`px-4 py-4 transition-all duration-300 ease-out ${
+              isMenuOpen ? "translate-y-0" : "-translate-y-2"
+            }`}
+          >
             <ul className="flex flex-col items-center gap-4 text-center">
               {navLinks.map((link) => (
                 <li key={link.path} className="duration-300 hover:text-red-600">
@@ -102,7 +112,7 @@ function Header() {
               ))}
             </ul>
           </div>
-        )}
+        </div>
       </nav>
 
       {/* Mobile floating Book Now bar */}
