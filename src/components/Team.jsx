@@ -3,6 +3,10 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Marlowe from "../assets/photos/Marlowe.jpg";
+import Dominic from "../assets/photos/Dom2.jpg";
+import Ashley from "../assets/photos/Ashley.jpg";
+import Christina from "../assets/photos/Christina3.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -71,14 +75,14 @@ function Team() {
       <div className="flex flex-wrap justify-center gap-10">
         <TeamCard
           className="gsap-team-card"
-          image="./src/assets/photos/Marlowe.jpg"
+          image={Marlowe}
           name="Marlowe"
           alt="Profile picture of Marlowe"
           link="https://www.fresha.com/a/blendart-barber-studio-frankfort-20867-south-la-grange-road-kf4e35li/booking?menu=true&dppub=true&cartId=90fa0ba8-e072-449b-a31f-11d2f3eb276c"
         />
         <TeamCard
           className="gsap-team-card"
-          image="./src/assets/photos/Dom2.jpg"
+          image={Dominic}
           name="Dominic"
           alt="Profile picture of Dominic"
           link="https://www.fresha.com/a/blendart-barber-studio-frankfort-20867-south-la-grange-road-kf4e35li/booking?menu=true&dppub=true&cartId=90fa0ba8-e072-449b-a31f-11d2f3eb276c"
@@ -92,14 +96,14 @@ function Team() {
         />
         <TeamCard
           className="gsap-team-card"
-          image="./src/assets/photos/Ashley.jpg"
+          image={Ashley}
           name="Ashley"
           alt="Profile picture of Ashley"
           link="https://app.thecut.co/barbers/barberashley"
         />
         <TeamCard
           className="gsap-team-card"
-          image="./src/assets/photos/Christina3.png"
+          image={Christina}
           name="Christina"
           alt="Profile picture of Christina"
           link="https://booksy.com/en-us/709062_lady-barber-smalls_barber-shop_19304_frankfort?do=invite&_branch_match_id=1544832368508364856&utm_medium=profile_share_from_profile&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVzzdx9zI2y8mKjEiyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUASvLicTwAAAA%3D"

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Blendart_Logo from "../assets/Blendart_logo.png";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ function Header() {
           <div className="flex items-center justify-between md:hidden">
             <Link to="/" onClick={closeMenu}>
               <img
-                src="/src/assets/Blendart_logo.png"
+                src={Blendart_Logo}
                 alt="BlendArt Barber Logo"
                 className="w-24 h-auto cursor-pointer"
               />
@@ -71,7 +72,7 @@ function Header() {
             <div className="absolute left-1/2 -translate-x-1/2">
               <Link to="/">
                 <img
-                  src="./src/assets/Blendart_logo.png"
+                  src={Blendart_Logo}
                   alt="BlendArt Barber Logo"
                   className="h-auto w-48 cursor-pointer lg:w-64"
                 />

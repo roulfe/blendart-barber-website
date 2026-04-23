@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import About_IMG from "../assets/photos/About_IMG.jpg";
 
 function About() {
   const container = useRef(null);
@@ -42,7 +43,7 @@ function About() {
 
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 md:flex-row">
         <img
-          src="./src/assets/photos/IMG_5135.jpg"
+          src={About_IMG}
           alt="About BlendArt Barber"
           className="gsap-media h-auto w-full max-w-md rounded-2xl object-cover md:w-1/2"
         />
