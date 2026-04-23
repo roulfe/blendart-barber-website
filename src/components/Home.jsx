@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import introReel from "../assets/intro_reel.mp4";
+import StoreFront from "../assets/photos/Storefront.avif";
+import IMG_5112 from "../assets/photos/IMG_5112.jpg";
+import Team_Home from "../assets/photos/Team_Home.jpg";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -112,7 +116,7 @@ function Home() {
           playsInline
           className="absolute inset-0 h-[70vh] w-full object-cover blur-xl scale-110 md:h-screen"
         >
-          <source src="./src/assets/intro_reel.mp4" type="video/mp4" />
+          <source src={introReel} type="video/mp4" />
         </video>
 
         <video
@@ -122,13 +126,13 @@ function Home() {
           playsInline
           className="relative mx-auto h-[70vh] w-full object-contain md:h-screen"
         >
-          <source src="./src/assets/intro_reel.mp4" type="video/mp4" />
+          <source src={introReel} type="video/mp4" />
         </video>
       </section>
 
       <section className="copy-section grid grid-cols-1 items-center gap-8 bg-(--Egg) px-4 py-8 md:grid-cols-2 md:px-10 md:py-12 lg:px-16">
         <img
-          src="./src/assets/photos/Storefront.avif"
+          src={StoreFront}
           alt="blendART Barber Studio"
           className="gsap-media w-full rounded-2xl object-cover"
           id="storefront-img"
@@ -181,7 +185,7 @@ function Home() {
 
       <section className="copy-section grid grid-cols-1 items-center gap-8 bg-(--Egg) px-4 py-8 md:grid-cols-2 md:px-10 md:py-12 lg:px-16">
         <img
-          src="./src/assets/photos/IMG_5112.jpg"
+          src={IMG_5112}
           alt="Services"
           className="gsap-media w-full rounded-2xl object-cover"
         />
@@ -207,7 +211,7 @@ function Home() {
       <section className="copy-section bg-white px-4 py-8 md:px-8 md:py-12 lg:px-12">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 text-center">
           <img
-            src="./src/assets/photos/657233275_18577359313019883_9015469389349218125_n.jpg"
+            src={Team_Home}
             alt="Team"
             className="gsap-media h-64 w-full max-w-3xl rounded-2xl object-cover shadow-lg sm:h-80 md:h-112"
           />
