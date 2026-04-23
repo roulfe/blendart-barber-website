@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Blendart_Logo from "../assets/Blendart_logo.png";
+import Blendart_Logo from "../assets/Blendart_Logo.png";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
