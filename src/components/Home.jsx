@@ -144,7 +144,7 @@ function Home() {
           </h1>
 
           <p id="home-para" className="gsap-copy text-base md:text-lg">
-            At BlendArt, barbering is treated as a craft — not a service. From
+            At blendArt, barbering is treated as a craft — not a service. From
             classic cuts to modern styles, every detail is handled with intention,
             precision, and care. Whether you're after a clean fade, a sharp
             lineup, or a fresh new look, you're in good hands.
@@ -167,11 +167,19 @@ function Home() {
           <p className="gsap-copy text-base md:text-lg">
             Hours
             <br />
-            Tuesday-Friday: 10am - 7pm
+            Monday: Closed
+            <br />
+            Tuesday: 10am - 7pm
+            <br />
+            Wednesday: 10:30am - 5pm
+            <br />
+            Thursday: 10am - 7pm
+            <br />
+            Friday: 10am - 7pm
             <br />
             Saturday: 10am - 5pm
             <br />
-            Sunday & Monday: Closed
+            Sunday: Closed
           </p>
         </div>
 
